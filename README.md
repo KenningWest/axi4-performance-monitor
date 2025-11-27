@@ -7,6 +7,11 @@ For use in testbench environment only!
 
 Important notice: Behaviour of this monitor for the case that first WVALID precedes the first AWVALID cycle of a burst is implemented but not thorougly tested! If it occurs a message will be included in the output summary file and an info message is printed to the console.
 
+## Attribution
+Original project by Dan Gisselquist (ZipCPU).
+
+This work is based on the wb2axip project and is redistributed according to its license.
+
 ## Requirements
 This design uses the AXI_BUS interface from the PULP Platform. Please refer to https://github.com/pulp-platform/axi/blob/master/src/axi_intf.sv
 
